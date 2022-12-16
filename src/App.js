@@ -6,9 +6,9 @@ function App() {
 
   return (
     <div className="app">
-      <p>Вы кликнули {count} раз</p>
-      <button onClick={() => setCount(count + 1)}>
-        Нажми на меня
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)} className="btn btn-primary">
+        Click me
       </button>
     </div>
   );
